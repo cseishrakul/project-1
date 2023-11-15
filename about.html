@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@100;200;300;400;600;700&family=Roboto&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+      integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <title>Eduford-Porject 1</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="" class="">
+          <img src="./images/logo.png" alt="Logo" class="" />
+        </a>
+        <div class="nav-links" id="menu">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html" class="">HOME</a>
+            </li>
+            <li>
+              <a href="about.html" class="">ABOUT</a>
+            </li>
+            <li>
+              <a href="" class="">COURSE</a>
+            </li>
+            <li>
+              <a href="" class="">BLOG</a>
+            </li>
+            <li>
+              <a href="" class="">CONACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About us</h1>
+    </section>
+    <!-- End Header Section -->
+
+    <!-- About Us -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            veritatis in obcaecati explicabo rem iusto, facilis beatae rerum
+            autem aspernatur laboriosam quasi amet pariatur quas provident aut
+            praesentium quis consequatur!
+          </p>
+          <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="./images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+        Praesentium, esse consectetur quia fuga vero accusantium atque pariatur
+        molestiae at voluptate aliquid!
+      </p>
+      <div class="icons">
+        <a href="https://www.google.com" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by IIE</p>
+    </section>
+
+    <!-- End Footer -->
+
+    <!-- Javascript part -->
+    <script>
+      var navLinks = document.getElementById("menu");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- Javascript part -->
+  </body>
+</html>
