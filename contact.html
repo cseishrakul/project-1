@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@100;200;300;400;600;700&family=Roboto&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+      integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Eduford</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html" class="">
+          <img src="./images/logo.png" alt="" class="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="./index.html" class="">HOME</a>
+            </li>
+            <li>
+              <a href="./about.html" class="">ABOUT</a>
+            </li>
+            <li>
+              <a href="./course.html" class="">COURSE</a>
+            </li>
+            <li>
+              <a href="./blog.html" class="">BLOG</a>
+            </li>
+            <li>
+              <a href="" class="">CONACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- End Header Section -->
+
+    <!-- Contact Us -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3860667520357!2d91.84319127369534!3d24.884809577913387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751aab3e322a7ef%3A0xa414118ddfa0059e!2sBoroikandi%20Rd%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1700415468637!5m2!1sen!2sbd"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div class="">
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Road 10, 73- Nizam Cottage</h5>
+              <p>South Surma, Sylhet</p>
+            </span>
+          </div>
+          <div class="">
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+88017171717</h5>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div class="">
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>eduford@info.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Name"
+              
+            />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Your Email"
+              
+            />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Subject"
+              
+            />
+            <textarea
+              name=""
+              id=""
+              rows="8"
+              placeholder="Message"
+              
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+        Praesentium, esse consectetur quia fuga vero accusantium atque pariatur
+        molestiae at voluptate aliquid!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by IIE</p>
+    </section>
+
+    <!-- Javascript part -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- Javascript part -->
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@100;200;300;400;600;700&family=Roboto&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+      integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Eduford</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html" class="">
+          <img src="./images/logo.png" alt="" class="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="./index.html" class="">HOME</a>
+            </li>
+            <li>
+              <a href="./about.html" class="">ABOUT</a>
+            </li>
+            <li>
+              <a href="./course.html" class="">COURSE</a>
+            </li>
+            <li>
+              <a href="./blog.html" class="">BLOG</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="">CONACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    <!-- End Header Section -->
+
+    <div class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./images/certificate.jpg" alt="">
+          <h2>Our Certificate & Online Program for 2023</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ab aspernatur nulla adipisci tempora autem ad odio dicta, explicabo ratione cupiditate a possimus illum saepe minus aliquam quia facilis. Sequi? <br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis omnis maxime non error inventore sit tempora odio, eos, nihil ipsum incidunt quod animi nam earum sequi, quisquam ratione fugit at.
+          <br>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores doloremque libero voluptas, cumque vitae ducimus vero enim voluptates facere repellendus id, et incidunt unde quisquam deserunt itaque totam nemo nostrum? <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nam odio aspernatur optio doloremque vero sint totam quidem sapiente voluptas, facere fugiat cumque nihil quas, debitis eius et repellat.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores doloremque libero voluptas, cumque vitae ducimus vero enim voluptates facere repellendus id, et incidunt unde quisquam deserunt itaque totam nemo nostrum? <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nam odio aspernatur optio doloremque vero sint totam quidem sapiente voluptas, facere fugiat cumque nihil quas, debitis eius et repellat.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores doloremque libero voluptas, cumque vitae ducimus vero enim voluptates facere repellendus id, et incidunt unde quisquam deserunt itaque totam nemo nostrum? <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi nam odio aspernatur optio doloremque vero sint totam quidem sapiente voluptas, facere fugiat cumque nihil quas, debitis eius et repellat.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" name="" id="" placeholder="Enter Name">
+              <input type="email" name="" id="" placeholder="Enter Email">
+              <textarea name="" id="" rows="5"></textarea>
+              <button type="submit" class="hero-btn red-btn">Post Comment</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div class="">
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div class="">
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div class="">
+            <span>Machine Learning</span>
+            <span>21</span>
+          </div>
+          <div class="">
+            <span>Computer Science</span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+        Praesentium, esse consectetur quia fuga vero accusantium atque pariatur
+        molestiae at voluptate aliquid!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by IIE</p>
+    </section>
+
+    <!-- Javascript part -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- Javascript part -->
+  </body>
+</html>
